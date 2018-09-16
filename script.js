@@ -85,7 +85,7 @@ document.getElementById("demo").innerHTML = article.title + "<br>" + article.des
 // Our variables
 const key = "af79e730fc064c4cbd737640e6b2331e"
 const url = `https://newsapi.org/v2/everything?q=+trump+tweet+twitter&language=en&apiKey=${key}`
-var i = 0; //deklarerar variabeln och sätter den till 0
+var i = 0; 
 
 // Our main function
 const recievedNews = (newsdata) => {
