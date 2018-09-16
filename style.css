@@ -25,12 +25,14 @@ h4 {
 	display: flex;
 	flex-wrap: wrap;
   justify-content: center;
+  background-color: #fff;
 }
 
 .firstNews {
 	display: flex;
 	flex-wrap: wrap;
   justify-content: center;
+  background-color: #fff;
 }
 
 .news {
@@ -63,7 +65,7 @@ h4 {
   background-color: #1721a8;
   background-image: url("http://www.mardirossian.se/wp-content/uploads/2018/09/dots3.png");
   background-repeat: repeat;
-  padding: 20px 10px 50px 10px;
+  padding: 20px 10px 50px 30px;
   margin: -10px -10px 10px -10px;
 }
 
@@ -76,7 +78,7 @@ h4 {
   .header-right {
     float: none;
   }
-  
+
 }
 .news-lead {
   background-color: #fff;
@@ -86,14 +88,12 @@ h4 {
 	border: none;
 }
 
-.firstNews {
-  background-color: #fff;
-}
-
 .firstNews img {
   max-width: 500px;
+  border-radius: 3px;
 }
 
 .news img {
   max-width:330px;
+  border-radius: 3px;
 }
